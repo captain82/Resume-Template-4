@@ -1,0 +1,307 @@
+*
+{
+	/*margin: 100;
+	border: 100;*/
+	box-sizing: border-box;
+	padding:0px;
+}
+
+html{
+	height: 100%;
+
+}
+
+
+@media print
+{
+    @page {
+      size: letter,A4; /* DIN A4 standard, Europe */
+      margin:30px;
+      padding: 0px;
+			#Header, #Footer { display: none !important; }
+
+    }
+}
+
+body{
+	/*position:relative;
+	left:50%;
+	margin-left:-297px;
+	top:0px;
+	width:595px;
+	height:842px;
+	border-style:outset;
+	overflow:scroll;*/
+	position: relative;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+	color: rgb(68,68,64);
+
+
+
+
+
+
+
+	/*height: 842px;
+        width: 595px;*/
+        /* to centre page on screen*/
+
+}
+
+.main_margin{
+
+
+}
+
+.hr{
+	border-top: 2px solid rgb(68,68,64);
+}
+
+.vr{
+
+    border:none;
+    border-left: 2px solid rgb(68,68,64);
+		height:  100%;
+}
+
+
+.name{
+  font-size: 32.0px;
+	font-weight:bold;
+	color:#495e84    ;
+
+
+}
+
+span.topics{
+	font-size: 17px;
+	font-weight: bold;
+	color:#495e84    ;
+
+
+}
+
+span.sub_topic{
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+span.cls_007{
+	font-weight: bold;
+}
+
+
+.about{
+  margin-top: 10.0px;
+  margin-bottom: 20.0px;
+	font-size: 14px;
+}
+
+.personal_details_rectangle{
+
+}
+
+.details{
+  display: flex;
+
+}
+
+.left{
+text-align: right;
+  width: 30%;
+  padding-right: 5px;
+	margin-right: 0px;
+	outline-style: solid;
+/*	color: #FFFFFF;
+	background-color: #495e84;*/
+	outline-color: #495e84;
+	outline-width: thick;
+
+
+
+}
+.right{
+  width: 75%;
+	margin-left: 15px;
+}
+
+.info_block{
+	margin-top: 15px;
+
+}
+
+.skills_block{
+	margin-top: 30px;
+
+}
+
+.languages_block{
+	margin-top: 30px;
+}
+
+.interests_block{
+	margin-top: 30px;
+}
+
+.email_block,.phone_block,.address_block{
+	text-align: right;
+	margin-top: 12px;
+	width: inherit;
+	height: auto;
+}
+
+
+.mail,.phone,.address{
+	margin-top: 3px;
+	text-align: right;
+
+	height: auto;
+	width: 100%;
+}
+
+.skills_list li
+{
+
+	padding:2px;
+	margin-top: 6px;
+	list-style: none;
+}
+
+.languages_list li
+{
+
+	padding:2px;
+	margin-top: 6px;
+	list-style: none;
+}
+.interests_list li
+{
+
+	padding:2px;
+	margin-top: 6px;
+	list-style: none;
+}
+
+.education_list li{
+	padding:2px;
+	margin-top: 10px;
+	list-style: none;
+}
+
+.experience_list li{
+	padding:2px;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.certificates_list li{
+	padding:2px;
+	margin-top: 10px;
+	list-style: none;
+}
+
+.projects_list li{
+	padding:2px;
+	margin-top: 10px;
+	list-style: none;
+}
+
+.education_block{
+	padding-top: 15px;
+}
+
+.projects_block{
+	padding-top: 30px;
+}
+
+.experience_block{
+	margin-top: 30px;
+}
+
+.certificates_block{
+	margin-top: 30px;
+}
+
+.institution{
+	margin-top: 5px;
+}
+
+.description{
+	margin-top: 5px;
+
+}
+
+.company{
+	margin-top: 5px;
+}
+
+ul{padding: 0 !important;}
+
+
+.startDate{
+	margin-top: 4px;
+
+}
+
+.stream{
+	margin-top: 3px;
+	float: right;
+	font-style: italic;
+	color:#495e84   ;
+
+}
+
+.institution{
+
+}
+
+.startDate,.stream{
+	display:inline-block;
+}
+
+.company,.exp_startDate{
+	display: inline-block;
+}
+
+.exp_startDate{
+	float: right;
+	font-style: italic;
+	color:#495e84   ;
+
+
+}
+
+.cert_startDate,.certificate_title{
+	display: inline-block;
+}
+
+.cert_startDate{
+	float: right;
+	font-style: italic;
+	color:#495e84   ;
+
+
+}
+
+.task{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 5px;
+	color:#495e84   ;
+
+
+}
+
+.achievements{
+	margin-top: 3px;
+}
+
+span.cls_003
+{
+	font-weight:normal;
+	font-style:normal;
+	text-decoration: none
+}
